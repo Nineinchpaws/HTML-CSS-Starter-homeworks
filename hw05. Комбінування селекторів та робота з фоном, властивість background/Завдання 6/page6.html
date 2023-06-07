@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 6</title>
+    <!-- Створіть два блоки, як на картинці, використовуючи тільки можливості властивості background.  -->
+    <style>
+        .container{
+            width: 440px;
+            border: black solid 1px;
+            display: flex;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 18px;
+            font-family: 'Arial';
+        }
+        .container div{
+            border: 1px solid grey;
+            border-radius: 15%;
+        }
+        .block1{
+            background-image: url(./HTML5.png);
+            background-size: 70px 70px;
+            background-position: 50% 20%;
+            background-repeat: no-repeat;
+            margin-right: 20px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            box-sizing: border-box;
+            width: 210px;
+            height: 160px;
+            position: relative;
+            margin-bottom: 0px;
+        }
+        .block2{
+            background-image: url(./CSS3.png);
+            background-size: 70px 70px;
+            background-position: 50% 20%;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            box-sizing: border-box;
+            width: 210px;
+            height: 160px;
+            padding-bottom: 21px;
+            padding-top: 50px;
+            position: relative;
+            margin-bottom: 0px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="block1"><span>HyperText Markup Language</span></div>
+        <div class="block2"><span>Cascading Style Sheets</span></div>
+    </div>
+</body>
+
+</html>

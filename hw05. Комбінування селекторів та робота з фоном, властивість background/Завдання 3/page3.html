@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Завдання 3</title>
+        <!-- Створіть міні-сторінку з меню, контентом, в якому є посилання та пагінація. Кнопки меню та пагінації вкажіть посиланнями, не привласнюючи кожному лінку клас. -->
+        <style>
+            .menu{
+            background-color: blue;
+            display: flex;
+            justify-content: flex-start; 
+            }
+            .menu a{
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            }
+            .menu a:hover{
+                background-color: aqua;
+            }
+            .foot{
+            background-color:peru;
+            padding: 12px 0px 12px 10px;
+            }
+            .foot a{
+                text-decoration: none;
+                background-color: lightgrey;
+                color: black;
+                padding-top: 4px;
+                padding-right: 9px;
+                padding-bottom: 4px;
+                padding-left: 9px;
+                margin-right: 6px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="page">
+            <div class="menu">
+                <a href="#">home</a>
+                <a href="#">books</a>
+                <a href="#">contacts</a>
+            </div>
+            <div class="text">
+                <h2>Title h2</h2>
+                <p>Lorem <a href="#">ipsum</a> dolor, sit amet consectetur adipisicing elit. Consectetur, fugiat!</p>
+            </div>
+            <footer class="foot">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </footer>
+        </div>
+    </body>
+
+</html>

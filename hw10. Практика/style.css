@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 2px solid black;
+}
+.menu,
+.greeting,
+.about,
+.portfolio,
+.forma, 
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: 1px solid #A52424;
+    background-color: white;
+    color: #A52424;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+}
+h2{
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.8px;
+}
+h3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+}
+
+/* H E A D E R section */
+.menu{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 23.5px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(16, 16, 16, 1);
+    margin-left: 50px;
+}
+.header_phone{
+    color: #A52424;
+    text-decoration: none;
+}
+h1{
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 1.6px;
+    margin: 0;
+}
+.greeting p{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+}
+.greeting button{
+    margin-top: 40px;
+    width: 335px;
+    height: 60px;
+}
+
+/* A B O U T  M E  section */
+.about figcaption{
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+}
+.about p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.8px;
+}
+.about p:first-child{
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+}
+.description{
+
+}
+
+
+/* P O R T F O L I O  section*/
+.portfolio{
+    align-items: stretch;
+}
+.block{
+    max-width: 32%;
+}
+.block img{
+    width: 100%;
+}
+.portfolio p{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+.portfolio button{
+    width: 202px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+/* P R I C E S  section*/
+.cards{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: 2px solid red;
+    width: 500px;
+    text-align: center;
+}
+.cards .card b{
+    display: block;
+    color: #A52424;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+.cards span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.cards{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.service{
+    border: 2px solid blue;
+}
+.service div{
+    display: flex;
+    justify-content: space-between;
+}
+.price span{
+    color: #A52424;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.price button{
+    width: 250px;
+    height: 60px;
+}
+
+/* S I G N  U P  section*/
+.forma{
+    flex-direction: column;
+    max-width: 50%;
+}
+.forma input{
+    width: 475px;
+    height: 60px;
+}
+.backgrnd{
+    max-width: 50%;
+}
+
+/* F O O T E R  section */
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials a{
+    margin-left: 55px;
+}
+.footer_phone{
+    color: #A52424;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.8px;
+}

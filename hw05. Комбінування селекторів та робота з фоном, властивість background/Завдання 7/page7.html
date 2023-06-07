@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Завдання 7</title>
+        <!-- Створіть секцію, використовуючи всі знання, отримані з цього уроку (для всіх зображень використовуйте тільки властивість background). -->
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-image: url(./затемненний.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: Arial, Helvetica, sans-serif;
+                opacity: .9;
+                color: white;
+            }
+
+            .page{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .head{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 300px;
+                padding-top: 200px;
+            }
+            .textblock{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .block{
+                background-repeat: no-repeat;
+                text-align: justify;
+                width: 20%;
+            }
+            #one{
+                background-image: url(./1.png);
+                margin-right: 40px;
+                background-size: 10%;
+                background-position-x: 1%;
+                background-position-y: 10%;
+            }
+            #two{
+                background-image: url(./2.png);
+                margin-right: 40px;
+                background-size: 8%;
+                background-position-x: 1%;
+                background-position-y: 10%;
+            }
+            #three{
+                background-image: url(./3.png);
+                background-size: 10%;
+                background-position-x: 1%;
+                background-position-y: 10%;
+            }
+            h2{
+                margin-left: 55px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="page">
+
+            <div class="head">
+                <h1>TRADE-IN</h1>
+            </div>
+
+            <div class="textblock">
+
+                <div class="block" id="one">
+                    <h2>PROGRAM</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ipsum expedita cumque ad eveniet dolorum vero impedit magnam iste atque perspiciatis odio hic minus quaerat dolor, unde quas, modi ea a temporibus. Repellendus quae magnam fugiat aspernatur quasi earum omnis minima, sequi itaque, placeat mollitia dignissimos expedita quo? Iusto, dolor.</p>
+                </div>
+
+                <div class="block" id="two">
+                    <h2>WORK PROCESS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ipsum expedita cumque ad eveniet dolorum vero impedit magnam iste atque perspiciatis odio hic minus quaerat dolor, unde quas, modi ea a temporibus. Repellendus quae magnam fugiat aspernatur quasi earum omnis minima, sequi itaque, placeat mollitia dignissimos expedita quo? Iusto, dolor.</p>
+                </div>
+
+                <div class="block" id="three">
+                    <h2>CONDITIONS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ipsum expedita cumque ad eveniet dolorum vero impedit magnam iste atque perspiciatis odio hic minus quaerat dolor, unde quas, modi ea a temporibus. Repellendus quae magnam fugiat aspernatur quasi earum omnis minima, sequi itaque, placeat mollitia dignissimos expedita quo? Iusto, dolor.</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>

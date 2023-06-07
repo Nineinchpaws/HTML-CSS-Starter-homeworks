@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Завдання 1</title>
+        <!-- Створіть список як на зображенні, прийнявши округлення в 20 пікселів і додайте фон лише парним пунктам, незалежно від кількості пунктів у списку. -->
+        <style>
+            .listone{
+                list-style: none;
+            }
+            li{
+                border-radius: 20px;
+                border: 1px solid grey;
+                padding: 10px;
+                margin: 10px;               
+            }
+            li:nth-child(even){
+                background-color: lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <ul class="listone">
+                <li>Lorem, ipsum.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quia quis obcaecati inventore voluptate beatae corrupti nostrum, modi illum suscipit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+        </div>
+    </body>
+</html>

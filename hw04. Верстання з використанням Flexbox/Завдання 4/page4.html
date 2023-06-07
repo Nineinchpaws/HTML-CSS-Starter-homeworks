@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Завдання 4</title>
+        <!-- Використовуючи готову розмітку прикладу, не змінюючи структуру коду html за допомогою властивості flex-direction, створіть блоки новин -->
+        <style>
+            *{
+                margin: 0;
+            }
+            .container{
+                background-color: lightgrey;
+                padding: 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                width: 1100px;
+            }
+            .article{
+                border-bottom: 1px solid black;
+                flex-wrap: wrap ;
+                padding: 10px;
+            }
+            a{
+                text-decoration: none;
+            }
+            span{
+                display: block;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="article">
+                <span>Статья создана 30.дн назад</span>
+                <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, commodi dolore consequuntur delectus veritatis expedita minima natus eum possimus repellat fugiat in sunt aspernatur eligendi voluptatum quisquam ducimus consequatur obcaecati!</a>
+            </div>
+            <div class="article">
+                <span>Статья создана 15.дн назад</span>
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum at culpa asperiores sed praesentium debitis corporis provident a nisi. Deleniti voluptatibus facilis adipisci nostrum iure sunt rerum dolorum amet.</a>
+            </div>
+            <div class="article">
+                <span>Статья создана 7.дн назад</span>
+                <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A porro aut culpa nisi quod odio aliquam. Cumque eius labore facilis. Facilis doloribus illo minus unde neque numquam dolorem earum sequi.</a>
+            </div>
+            <div class="article">
+                <span>Статья создана 4.дн назад</span>
+                <a href=#>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia fugiat qui distinctio blanditiis ullam. Cupiditate sunt dolorem eum vero temporibus deleniti possimus excepturi aliquid voluptatum at? Excepturi nisi numquam explicabo.</a>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

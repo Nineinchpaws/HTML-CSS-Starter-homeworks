@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="X-UA-Compatible">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- H E A D E R -->
+    <header>
+        <div class="container menu">
+            <a href="#">
+                <img src="images/Logo.png" alt="logo">
+            </a>
+            <nav>
+                <a href="#">Про мене</a>
+                <a href="#">Портфоліо</a>
+                <a href="#">Ціни</a>
+                <a href="#">Записатись</a>
+            </nav>
+            <a class="header_phone" href="tel:38096119 54 04">+380 (96) 119 54 04</a>
+        </div>
+        <!-- /.container -->
+        <div class="container greeting">
+            <div class="greating-text">
+                <h1>Юлія Тюлькіна</h1>
+                <p>фотограф / відеооператор</p>
+                <button>Записатись на фотосесію</button>
+            </div>
+            <img src="images/im.png" alt="I'm">
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /header -->
+
+    <main>
+        <!-- A B O U T  M E -->
+        <section>
+            <div class="container">
+                <h2>Про мене</h2>
+                <div class="about">
+                    <figure class="photo">
+                        <img src="images/IMG_4016 1.jpg" alt="">
+                        <figcaption>Юлія Тюлькіна</figcaption>
+                    </figure>
+                    <div class="description">
+                        <p>Привет! Меня зовут Юля, я фотограф из Винницы</p>
+                        <p>Занимаюсь фотографией более 2 лет. Люблю живые, естественные, теплые и эмоциональные кадры. Умею работать с такими инструментами как Photoshop, Lightroom.</p>
+                        <p>Фотография для меня - это способ показать прекрасное в простоте, то есть открыть занавес изящного и ненавязчивого. Видеосъёмка является чем-то по особенному ценным, ведь можно запечатлеть момент навсегда и при этом оставить отпечаток в истории.</p>
+                        <img src="images/photo_2019-11-02_21-30-32 2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- P O R T F O L I O -->
+        <section>
+            <div class="container">
+                <h2>Портфоліо</h2>
+                <div class="portfolio">
+                    <div class="block">
+                        <img src="images/image/portf1.jpg" alt="">
+                        <h3>Теплі фото біля дому</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button>Всі фото</button>
+                    </div>
+                    <div class="block">
+                        <img src="images/image/portf2.jpg" alt="">
+                        <h3>Ранкова відеозйомка</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, natoque amet at hendrerit consectetur rhoncus.</p>
+                        <button>Всі фото</button>
+                    </div>
+                    <div class="block">
+                        <img src="images/image/portf3.jpg" alt="">
+                        <h3>Фотосесія з квітами</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, natoque amet.</p>
+                        <button>Всі фото</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- P R I C E S -->
+        <section>
+            <div class="container prices-section">
+                <h2>Ціни</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/image/prices_1.png" alt="prices_1">
+                        <b>Фотосесія</b>
+                        <div class="service">
+                            <div>Тривалість <span>1 година</span></div>
+                            <div>Термін обробки фото <span>5 днів</span></div>
+                            <div>Кількість фото <span>20 штук</span></div>
+                        </div>
+                        <!-- /.service -->
+                        <div class="price">
+                            <span>200UAH</span>
+                            <button>Замовити зараз</button>
+                        </div>
+                    </div>
+                    <!-- /.card -->
+                    <div class="card">
+                        <img src="images/image/prices_2.png" alt="prices_2">
+                        <b>Відеозйомка</b>
+                        <div class="service">
+                            <div>Тривалість <span>1 година</span></div>
+                            <div>Термін обробки фото <span>5 днів</span></div>
+                            <div>Кількість фото <span>20 штук</span></div>
+                        </div>
+                        <!-- /.service -->
+                        <div class="price">
+                            <span>300UAH</span>
+                            <button>Замовити зараз</button>
+                        </div>
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.cards -->
+            </div>
+            <!-- /.prices-section -->
+        </section>
+        <!-- S I G N  U P -->
+        <section>
+            <div class="container">
+                <h2>Записатись до Юлі</h2>
+                <div class="backgrnd"></div>
+                <div class="forma">
+                    <form>
+                        <input type="text" name="Name" placeholder="Ім'я ...">
+                        <input type="text" name="Name" placeholder="E-mail ...">
+                        <textarea
+                            id="message"
+                            name="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Повідомлення ..."
+                            style="resize:none">
+                        </textarea>
+                        <input class="button" type="submit" value="Відправити">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- F O O T E R -->
+    <footer>
+        <div class="container menu">
+            <a href="#" class="logo">
+                <img src="images/Julie.png" alt="logo">
+            </a>
+            <div class="socials">
+                <a href="#">
+                    <img src="images/logo/footer_instagram.svg" alt="instagram_logo">
+                </a>
+                <a href="#">
+                    <img src="images/logo/footer_facebook.svg" alt="facebook_logo">
+                </a>
+                <a href="#">
+                    <img src="images/logo/footer_email.svg" alt="email_logo">
+                </a>
+            </div>
+            <a class="footer_phone" href="tel:38096119 54 04">+380 (96) 119 54 04</a>
+        </div>
+    </footer>
+
+    <div style="height: 500px;"></div>
+</body>
+
+</html>

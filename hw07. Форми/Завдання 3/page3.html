@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Завдання 3</title>
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+            }
+            .inputs{
+                display: flex;
+                flex-direction: row;
+            }
+            .name{
+                margin-right: 30px;
+            }
+            .txtnbtn{
+                display: flex;
+                flex-direction: column;
+            }
+
+            h2{
+                color: grey;
+            }
+            .inp{
+                background-color: lightgrey;
+                color: grey;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 25px;
+            }
+            textarea{
+                background-color: lightgrey;
+                color: grey;
+                border: none;
+                border-radius: 5px;
+                padding: 15px 25px;
+                margin-top: 30px;
+            }
+            .button{
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+                border: none;
+                opacity: 0.7;
+                margin-top: 30px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <form>
+                <h2>GET IN TOUCH</h2>
+                <div class="inputs">
+                    <div class="name">
+                        <input class="inp" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div>
+                        <input class="inp" type="text" name="email" placeholder="Your Mail">
+                    </div> 
+                </div>
+                <div class="txtnbtn">
+                <textarea
+                    id="comment"
+                    name="comment"
+                    cols="40"
+                    rows="7"
+                    placeholder="Type your message"
+                    style="resize:none"
+                    ></textarea>
+                    <input class="button" type="submit" value="SEND MESSAGE">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

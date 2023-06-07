@@ -1,0 +1,8 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-image: url(./pic3.jpg);
+    border-radius: 50%;
+    background-size:cover;
+    background-position: center;
+}

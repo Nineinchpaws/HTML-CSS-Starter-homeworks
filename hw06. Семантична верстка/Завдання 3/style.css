@@ -1,0 +1,200 @@
+/* Cторінка */
+    * {
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 24px;
+        font-family: 'Corbel';
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    section {
+        padding: 70px 0;
+    }
+
+    /* Заголовок другого рівня */
+    h2{
+        font-size: 48px;
+        color:#14931F;
+    }
+    /* Заголовок третього рівня */
+    h3{
+        font-size: 40px;
+        color:#14931F;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+
+/* Хедер */
+    .head{
+        background-image: url(./Логотип.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-position-x: 25%;
+        background-position-y: 10%;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+    }
+    /* Головний заголовок */
+    .head h1{
+        font-size: 64px;
+        color: #14931F;
+        margin-top: 80px;
+    }
+    /* Параграф хедера */
+    .head p{
+        color: #646F75;
+    }
+    /* Кнопка хедера */
+    .head button{
+        background: #14931F;
+        color: white;
+        border: none;
+        font-size: 24px;
+        padding: 10px 35px;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+
+/* Контентна частина */
+
+/* Секція Услуги */
+
+    /* Рядки таблиці */
+    .services td{
+        background-color: #DFDBF5;
+        color: #646F75;
+        padding: 25px;
+        border-radius: 40px;
+    }
+
+/* Секція Цены */
+    .prices{
+        background: #DFDBF5;
+    }
+    
+    .blocks ul{
+        list-style:url(./icon1.svg);
+        text-align: left;
+        color: #646F75;
+        font-size: 18px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .blocks li{
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+    /* Ховер кнпоки */
+    .butone:hover{
+        background: #14931F;
+        color: white;
+    }
+    /* рядок ціни в блоках 1 і 2 */
+    span{
+        font-size: 48px;
+        color: #646F75;
+    }
+
+    /* Кнопка блока діагностика */
+    .butone{
+        border: 1px solid #646F75;
+        color: #646F75;
+        background-color: white;
+        font-size: 24px;
+        padding: 5px 35px;
+        border-radius: 30px;
+    }
+
+    /* Кнопка послуг комфорту */
+    .buttwo{
+        border: 1px solid #646F75;
+        color: #646F75;
+        background-color: white;
+        font-size: 24px;
+        padding: 5px 35px;
+        border-radius: 30px;
+    }
+    /* Заголовок блоку послуги комфорту */
+    .comf h3{
+        color: white;
+    }
+    /* Рядок послуг комфорту */
+    .comf span{
+        color: white;
+        font-size: 48px;
+    }
+    /* пункти списку блоку послуг комфорту */
+    .comf ul{
+        color: white;
+        list-style: url(./icon2.svg);
+    }
+
+    /* Футер */
+    .podval{
+        background:  #14931F;
+        color: white;
+        font-size: 18px;
+        padding: 30px 0;
+    }
+
+    .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    }
+
+    /* Блоки секції цін */
+    .blocks{
+    display: flex;
+    flex-direction: row;
+    padding: 70px 0px 70px;
+    justify-content: space-between
+    }
+
+/* Блок Діагностика */
+.diagn{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Блок Послуги комфорту */
+.comf{
+    background-color: #14931F;
+    width: 30%;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Блок Апаратне лікування */
+    .aparat{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    .price_footer{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
+

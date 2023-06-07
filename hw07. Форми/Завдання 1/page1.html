@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Завдання 1</title>
+
+        <style>
+            .container{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            .cont{
+                padding: 10px;
+                border: 1px solid lightgrey;
+                border-radius: none;
+            }
+            .button{
+                background-color:mediumseagreen;
+                color: white;
+                padding: 10px 25px;
+                border: 1px solid mediumseagreen;
+                margin-top: 15px;
+                opacity: 0.7;
+            }
+            p{
+                font-style: italic;
+                color: grey;
+                font-family: arial;
+                font-size: smaller;
+            }
+            .cont::placeholder{
+                font-style: italic;
+                color: lightgrey;
+                font-size: smaller;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <form>
+                <p> Stay on the saddle! <br>
+                <input class="cont" type="text" name="email" placeholder="enter your email...">
+                <input class="button" type="submit" value="GO">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

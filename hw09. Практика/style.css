@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    color: #774E2E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ШАПКА */
+header{
+    padding-top: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ЛОГОТИП ШАПКИ */
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: #774E2E;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.01px;
+    margin-left: 50px;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+.main-top{
+    width: 575px;
+}
+.about{
+    background-image: url('images/backgrounds/pug_skate.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 575px 595px;
+}
+h1{
+    font-size: 110px;
+    color: #F37F34;
+    font-weight: 800;
+    margin-bottom: 50px;
+    line-height: 100%;
+}
+h1 span{
+    color: #774E2E;
+}
+p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+header button{
+    color: white;
+    background-color: #774E2E;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 20px 35px 20px 35px;
+    margin-bottom: 210px;
+}
+/* /ШАПКА */
+
+/* МЕЙН ПЕРШИЙ БЛОК*/
+.first{
+    background-color: #FFF7E9;
+}
+.goods{
+    text-align: center;
+    padding-top: 100px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+h2{
+    font-weight: 700;
+    font-size: 72px;
+    color: #F37F34;
+}
+h2 span{
+    color: #774E2E;
+    font-weight: 800;
+}
+.block{
+    background-color: white;
+    width: 30%;
+    margin-bottom: 150px;
+}
+.block p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.2px;
+}
+/* /МЕЙН ПЕРШИЙ БЛОК*/
+
+/* МЕЙН ДРУГИЙ БЛОК*/
+.second{
+    margin-bottom: 150px;
+}
+.advice{
+    background-image: url(images/backgrounds/pug_korzina.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 575px 720px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.contentleft{
+    width: 575px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contentleft h2{
+    margin-bottom: 30px;
+}
+ul{
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 25px;
+}
+li::marker{
+    font-size: 10px;
+    justify-content: center;
+    
+}
+/* /МЕЙН */
+
+/* ФУТЕР */
+footer{
+    background-color: 774E2E;
+    color: white;
+}
+.podval{
+    width: 100%;
+    background-color: #774E2E;
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 30px;
+}
+.podval img{
+    width: 100px;
+    height: 100px;
+}
+.podval span{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 47px;
+    text-shadow: none;
+}
+/* /ФУТЕР */
+
+
+
+
+
+
+
+
+

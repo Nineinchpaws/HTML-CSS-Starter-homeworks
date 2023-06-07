@@ -1,0 +1,69 @@
+body{
+    font-family: 'Arial';
+}
+
+.head{
+    background-color: grey;
+    padding: 5px;
+}
+
+.itvdnlogo{
+    margin-left: 5%;
+    display: inline;
+    opacity: 0.9;
+}
+
+.icons{
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.image{
+    margin-right: 7px;
+}
+
+.spannn{
+    color:white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+button{
+    width: 150px;
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.textblock{
+    margin-top: 10%;
+    line-height: 15px;
+}
+
+.pagetitle{
+    color: orange;
+    text-align: center;
+}
+
+.text{
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+
+.btn2{
+    margin-right: 25px;
+}
